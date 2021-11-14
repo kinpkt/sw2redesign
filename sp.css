@@ -13,8 +13,8 @@
 
 .content .lists h2
 {
-    text-align: justify;
-    padding-left: 300px;
+    text-align: left;
+    padding-left: 15%;
 }
 
 .content .lists:after, .content .ep:after, .content .ism:after, .content .sp:after, .content .ai::after
@@ -43,4 +43,18 @@
     color: #D71118;
     border-radius: 5px;
     box-shadow: 0 0 5px #D71118, 0 0 5px #D71118;
+    transition: 0.25s;
+}
+
+.bxl-facebook-circle
+{
+    color: #1778F2;
+}
+
+.content a.fb:hover
+{
+    color: #1778F2;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #1778F2, 0 0 5px #1778F2;
+    transition: 0.25s;
 }

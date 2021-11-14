@@ -1,0 +1,64 @@
+.content
+{
+    padding-top: 25px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.content h1
+{
+    text-align: center;
+    font-size: 30pt;
+}
+
+.content img
+{
+    margin: 0 auto;
+    width: 10%;
+    height: 10%;
+}
+
+.content .thai:after, .content .math:after, .content .sci:after,  .content .soc:after, .content .arts:after, .content .hepe:after, .content .work:after, .content .lang:after, .content .guid:after
+{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    padding-top: 20px;
+    border-bottom: 2.5px solid black;
+}
+
+.content .bx
+{
+    font-size: 35pt;
+}
+
+.thai .bxs-book, .thai .bxs-book-content
+{
+    color: #3FB984;
+}
+
+.bx-line-chart, .bx-infinite
+{
+    color: #F7E018;
+}
+
+.bxl-react, .bx-code-block
+{
+    color: #61DAFB;
+}
+
+.bx-globe, .bxs-bank
+{
+    color: #E54C21;
+}
+
+.bxs-paint, .bxs-music, .bx-plus-medical, .bx-swim, .bxs-camera, .bxs-tree, .bxs-book-reader, .bxs-spreadsheet
+{
+    color: #280068;
+}
+
+.lang .bxs-book, .lang .bxs-book-content
+{
+    color: #E632AC;
+}
