@@ -1,1 +1,1 @@
-const newsSlide = w3.slideshow(".newspic", 2500);
+const newsSlide = w3.slideshow(".newspic", 3000);

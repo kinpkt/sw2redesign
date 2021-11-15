@@ -1,0 +1,29 @@
+.content
+{
+    padding-top: 25px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.content h1
+{
+    text-align: center;
+    font-size: 30pt;
+}
+
+.content img
+{
+    margin: 0 auto;
+}
+
+.content p
+{
+    font-size: 20pt;
+    text-align: justify;
+    margin-left: 50px;
+}
+
+.content h2, .content h3
+{
+    text-align: center;
+}

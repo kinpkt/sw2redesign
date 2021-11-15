@@ -1,0 +1,23 @@
+.content
+{
+    padding-top: 25px;
+    font-size: 16pt;
+    text-align: center;
+}
+
+.content h1
+{
+    text-align: center;
+    font-size: 30pt;
+}
+
+.content audio
+{
+    display: block;
+    margin: auto;
+}
+
+.content img
+{
+    margin: 0 auto;
+}
