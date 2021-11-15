@@ -53,7 +53,7 @@
     color: #E54C21;
 }
 
-.bxs-paint, .bxs-music, .bx-plus-medical, .bx-swim, .bxs-camera, .bxs-tree, .bxs-book-reader, .bxs-spreadsheet
+.bxs-palette, .bxs-music, .bx-plus-medical, .bx-swim, .bxs-camera, .bxs-tree, .bxs-book-reader, .bxs-spreadsheet
 {
     color: #280068;
 }
@@ -61,4 +61,38 @@
 .lang .bxs-book, .lang .bxs-book-content
 {
     color: #E632AC;
+}
+
+table, tr, td
+{
+    margin: 0 auto;
+    table-layout: fixed;
+    width: fit-content;
+}
+
+.content table img
+{
+    width: 30%;
+    height: 30%;
+}
+
+.content table td
+{
+    font-size: 22.5pt;
+    border: 1px solid black;
+}
+
+.content .subline:after
+{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    border-bottom: 2.5px solid black;
+}
+
+.content p
+{
+    font-size: 25pt;
 }
